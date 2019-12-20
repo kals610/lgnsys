@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* reset */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,form,fieldset,input,button{ margin:0; padding:0;}
+body,h1,h2,h3,h4,h5,h6,th,td,button,input{ font:12px "돋움",dotum,sans-serif;}
+ul,ol,li{ list-style:none;}
+img,fieldset{ border:none; vertical-align:middle;}
+a{ text-decoration:none; color:#999;}
+legend{ display:none;}
+address, em{ font-style:normal;}
+
+/* common class */
+.screen_out{ text-indent:-9999px; overflow:hidden; width:0; height:0; display:block;}
+.clearfix:after{ content:'.'; display:block;  clear:both; width:0; height:0; overflow:hidden;}
+
+/* layout */
+.box_width{ width:1024px; margin:0 auto; position:relative;}
+#headerWrap{ border-top:5px solid #E40D71;}
+#header{ height:120px;}
+#nav{ float:right; clear:both; height:56px;padding-top:20px;}
+#visual{ background-color:#C5C2C2;}
+#mainContents{}
+#contentsArea{ width:1024px; margin:0 auto; position:relative; min-height:675px; }
+#left{ width:180px; float:left; }
+#contents{ width:844px; float:left;}
+#footerWrap{ margin:50px 0 0 0; border-top:1px solid #ddd; background-color:#efefef; clear:both;}
+#footer{ padding:20px 0 50px 0;}
+
+/* header */
+.logo{ position:absolute; top:40px; left:0; z-index:1;}
+.tmenu_area{ float:right; padding:20px 0 0 0;}
+.top_menu{ float:left; overflow:hidden; width:320px; padding-top:5px;}
+.top_menu li{ display:inline; padding:0 7px 0 9px; background:url(../img/line-bg.png) repeat-y; margin-left:-2px;}
+.top_menu li a{ font:12px "나눔고딕", nanumGothic, dotum, arial, sans-serif;}
+.top_menu .tm5 a{ color:#1AA305;}
+
+/* search */
+.searchArea{ float:left; width:187px;}
+.searchArea input, .searchArea button{ float:left; border:1px solid #ddd;}
+.searchArea #inputSch{ width:150px; padding:0 3px; height:20px;}
+.searchArea #btnSch{ width:30px; height:22px; background:url(../img/search-icon.png) no-repeat center center #8A8686; border:none; text-indent:-9999px; overflow:hidden; margin-left:-1px;}
+
+/* nav */
+.gnb{}
+.gnb > li{ float:left; position:relative; padding-right:2px; background:url(../img/line-bg.png) repeat-y right top;}
+.gnb .m4, .gnb .m5{ background:none;}
+.gnb .m5{ padding-right:0;}
+.gnb > li > a{ display:block; width:170px; height:25px; background:url(../img/gnbsnb.gif) no-repeat; overflow:hidden; text-indent:-9999px;}
+.gnb .m1 a{ background-position:50px 0;}
+.gnb .m2 a{ background-position:-120px 0;}
+.gnb .m3 a{ background-position:-290px 0;}
+.gnb .m4 a{ background-position:-460px 0;}
+.gnb .m5 a{ width:86px; text-indent:0;}
+.gnb .m1 a:hover{ background-position:50px -25px;}
+.gnb .m2 a:hover{ background-position:-120px -25px;}
+.gnb .m3 a:hover{ background-position:-290px -25px;}
+.gnb .m4 a:hover{ background-position:-460px -25px;}
+.sub{ position:absolute; left:0; top:56px; width:100%; text-align:center; z-index:10; display:none;}
+.sub li{}
+.sub li a{ display:block; width:170px; line-height:20px;}
+.sub li a:hover{ color:#D01259;}
+
+/* left */
+.left_title{}
+.lnb{}
+.lnb li{}
+.lnb li a{ display:block; height:35px; text-indent:-9999px; overflow:hidden;}
+.lnb.login_sub a{ background:url(../img/lnb6.gif) no-repeat}
+.lnb.company_sub a{ background:url(../img/lnb1.gif) no-repeat}
+.lnb .lnb_m1 a{ background-position:0 0;}
+.lnb .lnb_m2 a{ background-position:0 -50px;}
+.lnb .lnb_m3 a{ background-position:0 -100px;}
+.lnb .lnb_m4 a{ background-position:0 -150px;}
+.lnb .lnb_m5 a{ background-position:0 -200px;}
+.lnb .lnb_m1 a:hover{ background-position:-180px 0;}
+.lnb .lnb_m2 a:hover{ background-position:-180px -50px;}
+.lnb .lnb_m3 a:hover{ background-position:-180px -100px;}
+.lnb .lnb_m4 a:hover{ background-position:-180px -150px;}
+.lnb .lnb_m5 a:hover{ background-position:-180px -200px;}
+.quick_banner{ margin-top:50px;}
+.quick_banner li{ float:left;}
+
+/* footer */
+.f_menu{ overflow:hidden;}
+.f_menu li{ display:inline; padding:0 5px 0 7px; background:url(../img/thLine.gif) no-repeat; margin-left:-5px;}
+.f_menu li a{ color:#575757;}
+.f_link{ position:absolute; z-index:1; top:30px; right:0; }
+.addr{ padding:10px 0 6px 0;}
+.copyright{}

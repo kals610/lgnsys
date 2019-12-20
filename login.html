@@ -1,0 +1,39 @@
+<? include "header.html" ?>
+<div id="contentsArea">
+<? include "left_login.html" ?>
+<link href="css/login.css" rel="stylesheet" type="text/css" />
+<div id="contents" class="box_width">
+    <p class="home_icon">
+        <img src="img/home_icon.png" alt="홈아이콘"> > <a href="login.html">로그인</a>
+    </p>
+	<h3 class="sub_title">로그인</h3>
+    <div id="loginArea">
+    	<form action="#" id="loginForm">
+        	<fieldset>
+            	<legend>로그인</legend>
+                <p class="line">
+                	<label>아이디</label>
+                    <input type="text" id="uid" />
+                </p>
+                  <p class="line">
+                	<label>비밀번호</label>
+                    <input type="password" id="upw" />
+                </p>
+                <button type="submit" id="loginBtn">로그인</button>
+                 <ul class="member">
+            	<li><span>LG엔시스 아이디가 없으신 고객님은 회원가입을 해주세요.</span><a href="#">회원가입</a></li>
+                <li><span>아이디 또는 패스워드가 생각나지 않으세요?</span><a href="#">아이디/비밀번호 찾기</a></li>
+            	</ul>
+            </fieldset>
+        </form>
+            <ul class="etc">
+            	<li>홈페이지 비밀번호를 잊으셨거나, 로그인에 문제가 있는 분은 <strong>아이디/비밀번호 찾기</strong> 버튼을 눌러주세요.</li>
+                <li>아이디가 없으신 분은 회원가입 후 이용하실 수 있습니다.</li>
+                <li>웹진 뉴스레터를 수신거부하실 고객님은 <strong>마이페이지 > 회원정보수정의 수신거부</strong> 선택을 통하여 설정바랍니다.</li>
+            </ul>
+    </div><!-- end loginArea -->
+</div> 
+<!-- end contents -->
+</div>
+<!-- end contentsArea -->
+<? include "footer.html" ?>

@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+.home_icon{ margin:40px 0  0 70px; }
+.home_icon a{ color:#c00c3f; }
+.home_icon a:hover{ border-bottom:1px solid #c00c3f; }
+.sub_title{ font:30px "맑은 고딕",dotum,sans-serif; margin:30px 0  0 70px;}
+#sectionArea{ width:783px; margin:20px auto 70px 70px; /*border:1px solid #ddd; border-radius:5px; */}
+.section01{}
+.sub_txt{ width:380px; color:#4b4549; font:17px "맑은 고딕",dotum,sans-serif; }
+.sub_txt strong{ color:#c00c3f; font-weight:normal;}
+.access{ display:block; float:left; margin-top:40px; color:#666666; font:13px "맑은 고딕",dotum,sans-serif;}
+.lg_img{ margin:-240px 0 30px 470px;}
